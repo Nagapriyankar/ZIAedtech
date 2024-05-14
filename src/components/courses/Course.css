@@ -1,0 +1,42 @@
+.courses{
+   height: 100vh; 
+   padding: 0 3rem 0 3rem;
+   display: flex;
+   margin-top: 12rem;
+   margin-bottom: 13rem;
+}
+.blur {
+    position: absolute;
+    width: 20rem;
+    height: 15rem;
+    border-radius: 70%;
+    background: hsl(253, 38%, 77%);
+    filter: blur(200px);
+}
+.c-blur{
+    position: absolute;
+    left: 15rem;
+    top: 20rem;
+}
+
+.c-left{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    position: relative;
+}
+.c-left>:nth-child(1){
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--orange);
+}
+.c-left>:nth-child(2){
+    font-size: 15px;
+}
+
+.c-right{
+    position: relative;
+}
+.c-right>*{
+position: absolute;
+}

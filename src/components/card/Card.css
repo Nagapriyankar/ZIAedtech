@@ -1,0 +1,28 @@
+.card{
+    width: 12rem;
+    height: 16rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    text-align: center;
+    text-align: justify;
+    border: 7px solid var(--bluecard);
+    border-radius: 2rem;
+    box-shadow: var(--boxShadow);
+    padding: 15px 26px 2px 26px;
+    
+}
+
+.card>:nth-child(1){
+   transform: scale(0.2);margin-bottom: -10rem;
+   margin-top: -10rem;
+
+}
+.card>:nth-child(2){
+    color: var(--orange);
+}
+.card>:nth-child(3){
+    font-size: 15px
+}

@@ -1,0 +1,24 @@
+.about{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    height : 60vh;
+    padding: 0 2rem 0 2rem;
+    margin-top: 0rem;
+    margin-bottom: 6rem;
+}
+.a-left> span {
+    flex: 1;
+    text-align: justify;
+    font-weight: normal;
+    font-size: 1.8rem;
+}
+a.right{
+    flex: 1;
+}
+img{
+  
+   border-radius: 1rem;
+}
+

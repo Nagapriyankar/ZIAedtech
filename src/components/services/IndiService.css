@@ -1,0 +1,20 @@
+.serv{
+    color: var(--black);
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    gap: 1rem;
+}
+.serv>:nth-child(1){
+border-radius: 2%;
+}
+.serv>:nth-child(2){
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.serv>:nth-child(3){
+    color: var(--red);
+    margin: 0 1rem;
+    text-align: justify;
+}

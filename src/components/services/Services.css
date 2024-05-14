@@ -1,0 +1,35 @@
+.s-wrapper{
+    height: 80vh;
+    background-color: rgb(242, 246, 246);
+    border: 1px solid;
+    border-radius: 1rem;
+}
+
+.services{
+    padding: 1rem 3rem 1rem 3rem;
+    display: flex;  
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+}
+.s-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.s-head>:nth-child(1){
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--lblue);
+}
+.s-head>:nth-child(2){
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--lblue);
+}
+
+.content{
+    display: flex;
+}
